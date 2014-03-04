@@ -13,7 +13,7 @@ hoyKeys.js
     func : Callback function called when hotKey combination is pressed.
 
 
-**Available Keys **:
+**Available Keys :**
 
         "backspace","tab", "return", "pause":,
         "capslock", "esc", "space":, "pageup", "pagedown", "end", "home",
