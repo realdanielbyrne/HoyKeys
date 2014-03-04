@@ -4,7 +4,7 @@ hoyKeys.js
 **Description :** jQuery plugin to quickly add hot keys to any browser page.
 
 
-    .hotKey({key : keyString, [modifier : ['alt'|'ctrl'|'shift'] }, func);
+    .hotKey({key : keyString [,modifier : ['alt'|'ctrl'|'shift'] }], func);
 
     Returns : jQuery
 
@@ -25,9 +25,10 @@ hoyKeys.js
         "\\", "'"
 
 **Available Modifiers :** 
-        1. 'ctrl'
-        2. 'shift'
-        3. 'alt'
+
+    1. 'ctrl'
+    2. 'shift'
+    3. 'alt'
 
 
 
