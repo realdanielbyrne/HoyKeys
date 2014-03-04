@@ -46,7 +46,7 @@ Usage
 Attach a hotKey listener to any element.  If attached to the body element then every keypress on a page will be captured.
 
 **Example:**
-Registers the 'alt + c' hot key combination and attaches it to the body tag.  When alt_+c is pressed, the function 'alertUser' is called. Also registers 'ctrl + b' to call a function which takes a parameter.
+Registers the 'shift + c' hot key combination and attaches it to the body tag.  When alt_+c is pressed, the function 'alertUser' is called. Also registers 'ctrl + b' to call a function which takes a parameter.
 
 
 
