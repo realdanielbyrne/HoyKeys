@@ -9,7 +9,11 @@ HoyKeys
     Returns : jQuery
 
     keyString : String representing the key to be registered.
-    Available Keys :
+    modifier : String representing one of 3 possible modifier keys.
+    func : Callback function called when hotKey combination is pressed.
+
+
+**Available Keys **:
 
         "backspace","tab", "return", "pause":,
         "capslock", "esc", "space":, "pageup", "pagedown", "end", "home",
@@ -20,12 +24,11 @@ HoyKeys
         "f9", "f10", "f11","f12", "numlock", "scroll", ";", "/",
         "\\", "'"
 
-    modifier : String representing one of 3 possible modifier keys : 
+**Available Modifiers :** 
         1. 'ctrl'
         2. 'shift'
         3. 'alt'
 
-    func : Callback function called when hotKey combination is pressed.
 
 
 
@@ -44,6 +47,8 @@ Simply include jQuery 1.10+ and the hotKeys.js scripts tags to any page.
 Usage
 -----
 Attach a hotKey listener to any element.  If attached to the body element then every keypress on a page will be captured.
+
+    $('#myBody').hotKey({ key: 'c', modifier: 'alt' }, doSomething);
 
 **Example:**
 Registers the 'shift + c' hot key combination and attaches it to the body tag.  When alt_+c is pressed, the function 'alertUser' is called. Also registers 'ctrl + b' to call a function which takes a parameter.
