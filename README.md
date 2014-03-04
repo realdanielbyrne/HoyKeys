@@ -1,4 +1,4 @@
-HoyKeys
+hoyKeys.js
 =======
 
 **Description :** jQuery plugin to quickly add hot keys to any browser page.
