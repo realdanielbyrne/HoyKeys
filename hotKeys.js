@@ -24,7 +24,7 @@
             "\\":220, "'":222
         };
 
-        var modifiers = { 'alt': 'alt', 'ctrl': 'ctrl', 'shift': 'shift' };
+        var modifiers = { 'alt': 'alt', 'ctrl': 'ctrl', 'shift': 'shift' ,'cmd':'cmd'};
 
 
         for (var i = 65; i < 91; i++) {
@@ -76,6 +76,7 @@
                 if (((modifier == 'alt') && event.altKey) ||
                 ((modifier == 'ctrl') && event.ctrlKey) ||
                 ((modifier == 'shift') && event.shiftKey) ||
+                ((modifier == 'cmd') && event.metaKey) ||
                 (modifier === ""))
                 {
                     checkAndExecute(this);
